@@ -34,7 +34,7 @@ public class Doctor
    private String contact;
 	@Column(nullable = false)
    private String location;
-	@Column(name="dsatus",nullable = false)
+	@Column(name="dstatus",nullable = false)
    private boolean status;
 	@Column(nullable = false)
    private double experience;
